@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-const styledTitle = styled.div`
+const StyledTitle = styled.div`
 
     background-color: black;
     width: 800px;
@@ -11,13 +11,14 @@ const styledTitle = styled.div`
     color: white;
     text-align: center;
     border-radius: 15px;
+    font-size: 25pt;
 `;
 
 function Title() {
 
 
     return (<div className='Title'>
-        <styledTitle>Funciona Github pages con react : O</styledTitle>
+        <StyledTitle>Funciona Github pages con react : O</StyledTitle>
     </div>);
 }
 
