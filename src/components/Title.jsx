@@ -18,7 +18,7 @@ function Title() {
 
 
     return (<div className='Title'>
-        <StyledTitle>Funciona Github pages con react : O</StyledTitle>
+        <StyledTitle>Cambiando el mensaje por defecto</StyledTitle>
     </div>);
 }
 
